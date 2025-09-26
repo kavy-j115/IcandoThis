@@ -1,0 +1,78 @@
+body {
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    /*padding: 1rem 0;*/
+}
+
+footer p{
+    margin: 3rem;
+}
+
+#day-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 3rem;
+    color: #79c0ff;
+}
+
+#checklist {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+}
+
+#checklist li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #161b22;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+}
+
+#checklist input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#save-status {
+    text-align: center;
+    margin-top: 1rem;
+    color: #ffa657;
+}
+
+/* Buttons if needed later */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #238636;
+    color: white;
+    margin: 0.3rem;
+}
+
+.nav-buttons{
+    justify-content: center;
+    display: flex;
+    margin: 3rem auto;
+}
+
+#export-btn{
+    display: block;
+    margin: 20px auto;
+}
